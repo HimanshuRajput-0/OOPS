@@ -23,7 +23,7 @@ Ex: class DOG:               ## it is our class.
    print(dog_1.name) --> babu as output
    class's attribute is shared across all instance of class.
 
-# Desi m smjho ab tk kya pdha:
+**Desi m smjho ab tk kya pdha:**
 hmari class ke pass 1 property thi ki name kya h babu so ish class se sbhi objects ka naam babu he hoga or baki properties jese age, color and baki sb object ke hisabh se alag alg ho skti h bt jo class ka attribute h vo sb share krte h. That's why we say Objects are instance of class.
 
 2. Encapsulation:
