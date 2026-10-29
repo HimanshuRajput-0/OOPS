@@ -1,0 +1,28 @@
+# Classes in Python:
+
+class Human:
+      Leg = 2
+      Hands = 2
+      Eyes = 2
+
+# Access Modiifier:
+There is a term Access Modifier in Classes which controls the what part of a class can be accessed from outside the class, from within the class or by subclass.
+Means Access Modifier controls how data and methods are accessed and used.
+
+There are three types of Access Modifier:
+
+1. Public Access Modifier:
+Members can be accessed from anywhere in the program.
+By default all members are Public in Python.
+
+Ex: class Human:
+          def __init__ (self, name, age):
+                self.HumanName = name
+                self.HumanAge = age
+          def display(self):
+                print("name", self.HumanName , and, "age" , self.HumanAge)
+
+    object = Human("Himanshu",24)
+    object.display()
+
+**Output** --> 
